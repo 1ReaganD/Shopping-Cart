@@ -1,0 +1,122 @@
+.header{
+    text-align: center;
+}
+
+.productCard{
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: fit-content;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.leftSideOfProduct{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    /* background-color: red; */
+    max-height: 100%;
+}
+
+.leftSideOfProduct h2{
+    margin: 0;
+}
+
+.description{
+    padding-top: 20px;
+    margin: 0;
+}
+
+.buttonProductCard{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: end;
+    justify-items: center;
+}
+
+.buttonProductCard button{
+    height: 40px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    font-size: 1.2rem;
+    border: 0;
+    cursor: pointer;
+}
+
+.buttonProductCard button:hover{
+    box-shadow: 0 0 0 2px  gray;
+}
+
+.productCard img{
+    box-sizing: border-box;
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+}
+
+.products{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.rightSideOfProduct{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.belowImageProd{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+.belowImageProd p{
+    text-align: center;
+    padding: 6px;
+    color: white;
+    background-color: blue;
+}
+
+.error, .loading{
+    /* text-align: center; */
+    margin-top: 50px;
+    margin-left: 50vw;
+    font-size: 3rem;
+}
+
+.juu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    align-items: center;
+    /* padding-right: 100px; */
+}
+
+.cartIcon{
+    font-size: 2rem;
+    cursor: pointer;
+    color: black;
+}
+
+.counter{
+    background-color: rgba(255, 0, 0, 0.219);
+    height: fit-content;
+    position: absolute;
+    left: 35px;
+    top: -14px;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.pakuhesabia{
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+}
